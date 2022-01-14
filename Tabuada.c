@@ -1,12 +1,10 @@
 #include <stdio.h>
-int main()
-{
-    int X, A;
-    scanf("%d", &X);
-    for (A = 1; A <= 10; A++)
-    {
-        printf("%d * %d = %d\n", X, A, X * A);
-    }
+int main() {
+int entrada,contador;
+scanf("%d",&entrada);
+for(contador = 1;contador <= 10;contador++){
+    printf("%d x %d = %d\n",contador,entrada,contador * entrada);
 
-    return 0;
+}
+return 0;
 }
