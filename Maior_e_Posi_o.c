@@ -1,18 +1,18 @@
 #include <stdio.h>
-int main()
-{
-    int C, N, maior = 0, D = 1;
-    for (C = 0; C <= 100; C++)
-    {
-        scanf("%d", &N);
-        if (N > maior)
-        {
-            maior = N;
-            D++;   
-        }
+int main() {
+int valores,contador,maior=0,posicao=0;
+for(contador = 0;contador < 100;contador++){
+    scanf("%d",&valores);
+    if(valores > maior ){
+        maior = valores;
+        posicao=contador+1;
+        
         
     }
-    printf("%d\n", maior);
-    printf("%d\n", D);
-    return 0;
+
 }
+printf("%d\n",maior);
+printf("%d\n",posicao);
+return 0;
+}
+//2 113 45 34565 6
